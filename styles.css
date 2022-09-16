@@ -1,0 +1,101 @@
+:root {
+    --color1: #f0f8ff;
+    --color2: #000000;
+    --color3: #ffffff;
+    --color4: rgba(0, 0, 0, 0.050);
+}
+
+html {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    background-color: var(--color1);
+}
+
+.main-content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#options button {
+    font-size: 2rem;
+    width: 150px;
+    display: block;    
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    margin-top: 20px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+#options #pick-color {
+    display: flex;
+    justify-content: center;
+}
+
+#options #pick-color input {    
+    box-sizing: border-box;
+    border: 3px solid var(--color2);
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+#options #pick-color input {
+    cursor: pointer;
+}
+
+#options #adjust-size {
+    margin-top: 50px;
+}
+
+#options #adjust-size label {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#options button:hover {
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+#sketchpad {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color3);
+    box-sizing: content-box;
+    box-shadow: 0 0 10px 1px var(--color4);
+}
+
+.box {
+    border: 0.1px solid var(--color4);
+}
+
+footer p {
+    width: 100%;
+    font-size: 1.6rem;
+    color: black;
+}

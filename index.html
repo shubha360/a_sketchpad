@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Raquibul Islam">
+
+        <title>A Sketchpad</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="main-content">
+  
+            <div id="options">
+                
+                <div id="pick-color">
+                    <input type="color">
+                </div>
+
+                <button id="color" class="mode-button">Color</button>
+                <button id="rainbow" class="mode-button">Rainbow</button>
+                <button id="eraser" class="mode-button">Eraser</button>
+                <button id="clear">Clear</button>
+
+                <div id="adjust-size">
+                    <label for="size">10</label>
+                    <input type="range" min="1" max="50" id="size">
+                </div>
+            </div>
+
+            <div class="pad">
+                <h1>A Sketchpad</h1>
+                <div id="sketchpad"></div>
+            </div>
+        </div>
+<!-- 
+        <footer>
+            <p>Unfortunately this website is not responsive.</p>
+            <p>Copyright &copy; <a href="https://github.com/shubha360">Raquibul Islam</a> 2022</p>
+        </footer> -->
+    </body>
+</html>
