@@ -11,7 +11,7 @@ const mainPadSizeHeight = mainPad.offsetHeight;
 var currentMode = modeButtons[0];
 var boxStorage = [];
 
-colorPicker.value = "#FFFFFF";
+colorPicker.value = "#454545";
 var selectedColor = colorPicker.value;
 
 var boxSize = 10;
